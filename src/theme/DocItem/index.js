@@ -87,16 +87,15 @@ function DocItem(props) {
   const metaImageUrl = useBaseUrl(metaImage, { absolute: true });
 
   const [isChecked, setIsChecked] = React.useState(
-    window.localStorage.getItem(docId) &&
-      window.localStorage.getItem(docId) === "checked"
+    localStorage.getItem(docId) && localStorage.getItem(docId) === "checked"
   );
 
   const toggleChecked = () => {
     if (isChecked) {
-      window.localStorage.removeItem(docId);
+      localStorage.removeItem(docId);
       setIsChecked(false);
     } else {
-      window.localStorage.setItem(docId, "checked");
+      localStorage.setItem(docId, "checked");
       setIsChecked(true);
     }
   };
