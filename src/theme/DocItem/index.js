@@ -86,9 +86,12 @@ function DocItem(props) {
   const metaTitle = title ? `${title} | ${siteTitle}` : siteTitle;
   const metaImageUrl = useBaseUrl(metaImage, { absolute: true });
 
-  const [isChecked, setIsChecked] = React.useState(
-    localStorage.getItem(docId) && localStorage.getItem(docId) === "checked"
-  );
+  const [isChecked, setIsChecked] = React.useState(false);
+
+  React.useEffect(() => {
+    const item = localStorage.getItem(docId);
+    setIsChecked(item && item === "checked");
+  }, []);
 
   const toggleChecked = () => {
     if (isChecked) {
