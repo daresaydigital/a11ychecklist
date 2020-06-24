@@ -61,7 +61,7 @@ module.exports = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl:
-            "https://github.com/daresaydigital/a11ychecklist/edit/master/docs",
+            "https://github.com/daresaydigital/a11ychecklist/edit/master",
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
         },
