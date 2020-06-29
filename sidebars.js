@@ -10,7 +10,7 @@ module.exports = {
       collapsed: false,
       type: "category",
       label: "Categories",
-      items: ["mdx", "doc1", "doc2"],
+      items: ["mdx", "doc1", "doc2", "orientation"],
     },
   ],
 };
