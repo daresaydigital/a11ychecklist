@@ -2,7 +2,7 @@
 id: orientation
 title: Don’t restrict the UI to a specific orientation
 tags:
-  - 1.4.10 AA
+  - 1.3.4 AA
   - Layout
   - Design
   - Tech
@@ -23,7 +23,7 @@ Make sure all content is presented regardless of screen orientation.
 
 ## Example
 
-Design
+### Design
 
 ![A vertical and a horizontal screen](https://github.com/daresaydigital/a11ychecklist/blob/orientation-guidelines/static/img/orientation.png?raw=true)
 
