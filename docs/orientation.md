@@ -2,10 +2,10 @@
 id: orientation
 title: Don’t restrict the UI to a specific orientation
 tags:
+  - 1.4.10 AA
   - Layout
   - Design
   - Tech
-  - 1.4.10 AA
 sidebar_label: Orientation
 ---
 
