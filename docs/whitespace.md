@@ -9,9 +9,9 @@ tags:
 sidebar_label: Whitespace
 ---
 
-## Change the styling properties instead of using whitespace characters for layout purposes
+## Description
 
-Since whitespace character can change the way a word is being pronounced or change words meaning for example by screen readers. 
+You should change the styling properties instead of using whitespace characters for layout purposes. Whitespace characters can cause a lot of trouble for screen readers as they can change the meaning of the word or how it is pronounced. 
 
 When blank characters are inserted to control letter spacing within a word, they may change the interpretation of the word or cause it not to be programmatically recognized as a single word 
 
@@ -29,7 +29,7 @@ This example has white spaces within a word to space out the letters in a headin
 <h1>W e l c o m e</h1>
 ```
 
-&amp;nbsp; can also be used to add white space, producing similiar features:
+&amp;nbsp; can also be used to add white space, producing similiar problems:
 
 ```html
 <h1>H&nbsp; e&nbsp; l&nbsp; l&nbsp; o</h1>

@@ -48,6 +48,8 @@
   color: var(--ifm-color-gray-dark);
 }
 
+.menu__link:hover,
+.menu__link--active:not(.menu__link--sublist),
 .completecheck {
   background: #f2f7fe;
 }
