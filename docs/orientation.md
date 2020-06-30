@@ -2,7 +2,7 @@
 id: orientation
 title: Don’t restrict the UI to a specific orientation
 tags:
-  - 1.4.10 AA
+  - 1.3.4 AA
   - Layout
   - Design
   - Tech
