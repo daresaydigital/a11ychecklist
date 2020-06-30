@@ -23,7 +23,7 @@ Make sure all content is presented regardless of screen orientation.
 
 ## Example
 
-Design
+### Design
 
 ![A vertical and a horizontal screen](https://github.com/daresaydigital/a11ychecklist/blob/orientation-guidelines/static/img/orientation.png?raw=true)
 

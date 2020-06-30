@@ -22,11 +22,11 @@ Make sure that content can be presented without loss of information or functiona
 
 ## Example
 
-Design
+### Design
 
 ![Example showing that a scroll bar should not stretch outside the window width](https://github.com/daresaydigital/a11ychecklist/blob/master/static/img/responsiveness.png?raw=true)
 
-Code
+### Code
 
 ```css
 @media screen and (min-width: 320 px) {
