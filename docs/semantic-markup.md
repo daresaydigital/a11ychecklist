@@ -1,36 +1,18 @@
 ---
-id: whitespace
-title: Don't use whitespace characters for layout purposes
+id: semantic-markup
+title: Use the right semantic markup for the different elements that are used
 tags:
   - 1.3.1 A
-  - Layout
-  - Design
+  - 4.1.1 A
   - Tech
-sidebar_label: Whitespace
+sidebar_label: Semantic Markup
 ---
 
 ## Description
 
-You should change the styling properties instead of using whitespace characters for layout purposes. Whitespace characters can cause a lot of trouble for screen readers as they can change the meaning of the word or how it is pronounced. 
-
-When blank characters are inserted to control letter spacing within a word, they may change the interpretation of the word or cause it not to be programmatically recognized as a single word 
-
-## What to do
-
-- Avoid using whitespace characters (i.e blanks/spaces and tabs etc.)
+"Use elements according to their meaning, not because of the way they appear visually. By using the semantic appropriate elements blind/low-vision people using screen readers will have an easier time understanding how to navigate and use the UI. 
 
 ## Example
 
-This example has white spaces within a word to space out the letters in a heading. Screen readers may read each letter individually instead of the word “Welcome”.
-
-### Code
-
-```html
-<h1>W e l c o m e</h1>
-```
-
-&amp;nbsp; can also be used to add white space, producing similiar problems:
-
-```html
-<h1>H&nbsp; e&nbsp; l&nbsp; l&nbsp; o</h1>
-```
+Use h1, h2, etc for headings. Use labels for input fields. Group related controls in forms. Use tables for tabular data. Avoid emulating links and buttons by using div, span etc. Emphasize text correctly. Etc
+Use native semantic markup and complement with ARIA when standard is insufficent.
