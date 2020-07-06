@@ -1,32 +1,21 @@
 ---
-id: orientation
-title: Don’t restrict the UI to a specific orientation
+id: repeated-component-occurance
+title: Ensure that repeated components, like navigation, search etc, occur in the same relative order on each page (3.2.3 AA)
 tags:
-  - 1.4.10 AA
+  - 3.2.3 AA
   - Layout
   - Design
-  - Tech
-sidebar_label: Orientation
+  - Structure
+sidebar_label: Repeated component occurence
 ---
 
 Mark as completed
 
 ## Description
 
-All users don’t have the possibility to turn their device. Some users have to choose a mode (either portrait or landscape) and always have it in that mode, for example a wheelchair user that mount their mobile devices in a specific orientation.  
-
+This will help users to predict where they find content on each page, like search, skip to main content link, primary and secondary navigation, logo, etc. 
 This requirement also implies that all content and functionality shall be available in all orientations.
-
-## What to do
-
-Make sure all content is presented regardless of screen orientation.
-
-## Example
-
-Design
-
-![A vertical and a horizontal screen](https://github.com/daresaydigital/a11ychecklist/blob/orientation-guidelines/static/img/orientation.png?raw=true)
 
 ## Exceptions
 
-When the orientation of the device is absolutely necessary. For example a music app using an on-screen piano that needs landscape orientation to provide large enough tap areas for the piano keys.
+ If the user has chosen to change the order, either by using an adaptive mechanism or setting a preference. 
