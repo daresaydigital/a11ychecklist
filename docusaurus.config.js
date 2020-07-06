@@ -6,6 +6,7 @@ module.exports = {
   favicon: "img/favicon.ico",
   organizationName: "daresay", // Usually your GitHub org/user name.
   projectName: "a11ychecklist", // Usually your repo name.
+  plugins: ['docusaurus-plugin-sass'],
   themeConfig: {
     navbar: {
       hideOnScroll: true,
@@ -72,7 +73,7 @@ module.exports = {
             "https://github.com/daresaydigital/a11ychecklist/edit/master/blog",
         },
         theme: {
-          customCss: require.resolve("./src/css/custom.css"),
+          customCss: require.resolve("./src/css/custom.scss"),
         },
       },
     ],
