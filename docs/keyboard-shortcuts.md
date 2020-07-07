@@ -1,30 +1,38 @@
 ---
-id: regions
-title: Use regions/landmarks to identify sections of a page
+id: keyboard-shortcuts
+title: If you implement custom keyboard shortcuts for your content make sure they can either be turned off, remapped or are only active when a specific control has focus
 tags:
   - 2.4.1 A
   - Tech
-  - Layout
-  - Landmarks
-sidebar_label: Regions
+  - Design
+  - Navigation
+sidebar_label: 
 ---
 
 ## Description
 
-Help users with assistive technology (such as a screen reader) to orient and navigate more easily to different sections of a page.  
+This applies to keyboard shortcuts consisting of printable character keys: 
+- Letters (including upper- and lower-case)
+- Punctuations
+- Numbers (digits)
+- Symbol characters
 
-Landmarks should supplement native semantic markup such as headings, lists etc. Make sure all content on the page is included in landmarks. Region is a segment of the page that contains content of significance so that it becomes more readily discoverable and navigable. 
+These types of keyboard shortcuts can make it faster to navigate your content, but should be used with care. Certain users can due to motor difficulties accidentally tap the wrong key, people who uses speech input can accidentally trigger a shortcut and some users might have set their own shortcuts to make navigation easier for them which then gets mixed up. 
 
-## What to do
+It’s therefore important that if custom keyboard shortcuts are used, then users must be able to either turn them off or reconfigure them to include one or more non-printable keys.
 
-- Make sure all content on the page is included in landmarks 
+Not applied:
+- When shortcuts consisting of printable characters only works when a component has focus, like listboxes and dropdown menus. 
+- Two-step shortcut that includes a non-printable key, for example first accessing an element with a single non-character shortcut (e.g. Alt or Alt+F) and then pressing a single character key to select an item. 
+- When a modifier key is required, like with accesskeys.
 
-## Tips
+## Exceptions
 
-- If you use HTML5, use structural elements such as main, aside, header, footer and hub to define what role each part of the page has. 
-- Use WAI-ARIA landmark roles, such as main, search, navigation, banner, content info and so on. This allows users with, for example, screen readers to navigate between different parts of the page in a standardized way. 
+It’s unclear if this requirement only applies when the keyboard shortcuts consist of a single character shortcut. Single character shortcuts seem to yield more problems.
 
 ## Additional information
 
-- [ARIA Landmarks example](https://www.w3.org/TR/wai-aria-practices/examples/landmarks/index.html "Example on how to use ARIA Landmarks")
-- [Using WAI-ARIA Landmarks](https://developer.paciellogroup.com/blog/2013/02/using-wai-aria-landmarks-2013/ "HInstructions on how to use WAI-ARIA Landmarks")
+Different definitions of characters and keys: 
+https://en.wikipedia.org/wiki/ASCII#Printable_characters
+https://en.wikipedia.org/wiki/Control_character   (non-printing character)
+https://en.wikipedia.org/wiki/Keyboard_layout
