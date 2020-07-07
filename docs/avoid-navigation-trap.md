@@ -1,6 +1,6 @@
 ---
 id: avoid-navigation-trap
-title: Make sure that users don’t get trapped in a particular section of the page or in a component while navigating with a keyboard.
+title: Make sure that users don’t get trapped in a particular section of the page or in a component while navigating with a keyboard
 tags:
   - 2.1.2 A
   - Interaction
