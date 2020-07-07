@@ -1,6 +1,6 @@
 ---
 id: full-keyboard-interactions
-title: Make sure that all functionality can be operated through a keyboard.
+title: Make sure that all functionality can be operated through a keyboard
 tags:
   - 2.1.1 A
   - Navigation
