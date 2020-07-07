@@ -1,55 +1,17 @@
 ---
-id: responsiveness
-title: Make the design responsive
+id: functionality-options
+title: Functionality offered through motion like tilting and shaking must also be available by other means
 tags:
-  - 1.4.10 AA
-  - Layout
+  - 2.5.4 A
+  - Interaction
   - Design
-  - Tech
-sidebar_label: Responsiveness
+sidebar_label: 
 ---
 
 ## Description
 
-Make the design responsive so it can be displayed down to a width of 320 CSS pixels without horizontal scrolling. Make sure that content can be presented without loss of information or functionality, and without the need of scrolling in two dimensions, i.e. that the content reflows so it's presented in one column. Being forced to scroll in reading direction significantly reduces reading comprehension. 
-
-## What to do
-
-- Avoid horizontal scrolling to about 320 CSS pixels width
-- Use responsive design if possible
-- Create an adapted mobile design if responsive design isn’t possible
-- Documents that are not a webpage should also be readable in a limited width
-
-## Example
-
-### Design
-
-![Example showing that a scroll bar should not stretch outside the window width](https://github.com/daresaydigital/a11ychecklist/blob/master/static/img/responsiveness.png?raw=true)
-
-### Code
-
-```css
-@media screen and (min-width: 320 px) {
-
-}
-```
+Some users aren’t able to operate via device sensors. Their device may be mounted on a wheelchair or theymay suffer of motor impairments. Make sure the function can be done by other means such as buttons, links or other controls.  
 
 ## Exceptions
 
-1. Content which requires two-dimensional layout: Images and video (do not cut them up and stack them, shrink them instead)
-2. Interfaces with toolbars to edit content where it's necessary to keep toolbars in view while manipulating content.
-
-## Tips
-
-You can simulate a 320 CSS pixel width by setting the browser window to 1280 px wide and then zooming the page content to 400%.
-
-For content that is scrolled horizontally, the layout should work to a height of 256 CSS pixels (1024 px heigh, zoomed to 400%).
-
-## Additional information
-
-This requirement is connected to [guideline 1.4.4 A](# "Guidelines for criterion 1.4.4") (resize text up to 200%). If the text zooms with the UI you'll fulfill the 1.4.4 requirement as well. If you make adjustment to the text size per media query, make sure you don't make it too small. It still needs to become 200% from default (otherwise it must still be possible to also increase text size up to 200% of default).
-
-## Related to
-
-- [1.4.3 AA - Contrast (Minimum)](# "Guidelines for criterion 1.4.3")
-- [1.4.4 A - Resize text](# "Guidelines for criterion 1.4.4")
+1. When the motion is essential for the function or not using motions or gestures would invalidate the activity. Like pedometer that relies on device motion to count steps.
