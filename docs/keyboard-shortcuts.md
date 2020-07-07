@@ -33,6 +33,6 @@ It’s unclear if this requirement only applies when the keyboard shortcuts cons
 ## Additional information
 
 Different definitions of characters and keys: 
-https://en.wikipedia.org/wiki/ASCII#Printable_characters
-https://en.wikipedia.org/wiki/Control_character   (non-printing character)
-https://en.wikipedia.org/wiki/Keyboard_layout
+- https://en.wikipedia.org/wiki/ASCII#Printable_characters
+- https://en.wikipedia.org/wiki/Control_character   (non-printing character)
+- https://en.wikipedia.org/wiki/Keyboard_layout
