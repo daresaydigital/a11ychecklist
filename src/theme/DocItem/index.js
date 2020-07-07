@@ -86,23 +86,6 @@ function DocItem(props) {
   const metaTitle = title ? `${title} | ${siteTitle}` : siteTitle;
   const metaImageUrl = useBaseUrl(metaImage, { absolute: true });
 
-  const [isChecked, setIsChecked] = React.useState(false);
-
-  React.useEffect(() => {
-    const item = localStorage.getItem(docId);
-    setIsChecked(item && item === "checked");
-  }, []);
-
-  const toggleChecked = () => {
-    if (isChecked) {
-      localStorage.removeItem(docId);
-      setIsChecked(false);
-    } else {
-      localStorage.setItem(docId, "checked");
-      setIsChecked(true);
-    }
-  };
-
   return (
     <>
       <Head>
@@ -184,20 +167,6 @@ function DocItem(props) {
                     )}
                   </header>
                 )}
-
-                <div
-                  className={`completecheck ${
-                    isChecked ? "checked" : "not-checked"
-                  }`}
-                >
-                  <input
-                    type="checkbox"
-                    checked={isChecked}
-                    onChange={toggleChecked}
-                  />
-                  {isChecked ? "Completed" : "Mark as Completed"}
-                </div>
-
                 <div className="markdown">
                   <DocContent />
                 </div>
