@@ -1,6 +1,6 @@
 ---
 id: functionality-off
-title: Functionality offered through motion like tilting and shaking must be possible to turn off.
+title: Functionality offered through motion like tilting and shaking must be possible to turn off
 tags:
   - 2.5.4 A
   - Interaction
