@@ -1,6 +1,6 @@
 ---
 id: text-not-images
-title: Use text rather than images of text ().
+title: Use text rather than images of text
 tags:
   - 1.4.5 AA
   - Images
