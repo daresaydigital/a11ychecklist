@@ -80,6 +80,7 @@ function DocItem(props) {
       hide_title: hideTitle,
       hide_table_of_contents: hideTableOfContents,
       tags,
+      back,
     },
   } = DocContent;
 
@@ -145,6 +146,11 @@ function DocItem(props) {
             )}
             <div className={styles.docItemContainer}>
               <article>
+                {back && (
+                  <Link to={back}>
+                    Back
+                  </Link>
+                )}
                 {version && (
                   <div>
                     <span className="badge badge--secondary">
@@ -200,7 +206,7 @@ function DocItem(props) {
                         </a>
                       )}
                     </div>
-                    {(lastUpdatedAt || lastUpdatedBy) && (
+                    {/* {(lastUpdatedAt || lastUpdatedBy) && (
                       <div className="col text--right">
                         <em>
                           <small>
@@ -237,13 +243,13 @@ function DocItem(props) {
                           </small>
                         </em>
                       </div>
-                    )}
+                    )} */}
                   </div>
                 </div>
               )}
-              <div className="margin-vert--lg">
+              {/* <div className="margin-vert--lg">
                 <DocPaginator metadata={metadata} />
-              </div>
+              </div> */}
             </div>
           </div>
           {!hideTableOfContents && DocContent.rightToc && (

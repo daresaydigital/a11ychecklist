@@ -6,7 +6,9 @@ module.exports = {
   favicon: "img/favicon.ico",
   organizationName: "daresay", // Usually your GitHub org/user name.
   projectName: "a11ychecklist", // Usually your repo name.
-  plugins: ['docusaurus-plugin-sass'],
+  plugins: [
+    'docusaurus-plugin-sass',
+  ],
   themeConfig: {
     navbar: {
       hideOnScroll: true,
@@ -31,25 +33,7 @@ module.exports = {
         },
       ],
     },
-    footer: {
-      style: "light",
-      links: [
-        {
-          title: "Other Resources from Daresay",
-          items: [
-            {
-              label: "Daresay Toolkit",
-              to: "https://toolkit.daresay.io/",
-            },
-            {
-              label: "Daresay Teamwork Kit",
-              to: "https://daresay.co/teamwork-kit/",
-            },
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} Daresay AB. Built with Docusaurus.`,
-    },
+    footer: false,
   },
   presets: [
     [
@@ -57,7 +41,7 @@ module.exports = {
       {
         docs: {
           // It is recommended to set document id as docs home page (`docs/` path).
-          homePageId: "docs-landing",
+          homePageId: "landing",
           routeBasePath: "/",
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
