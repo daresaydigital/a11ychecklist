@@ -1,6 +1,6 @@
 ---
 id: modal-focus
-title: Make sure focus is set correctly with modal dialogs when navigating with keyboard (2.1.1 A, 2.1.2 A, 2.4.3 A)
+title: Make sure focus is set correctly with modal dialogs when navigating with keyboard
 tags:
   - 2.1.1 A 
   - 2.1.2 A
