@@ -18,4 +18,4 @@ A gif is considered flashing if it switches from dark to light more than three t
 
 ## Additional Information
 
-Tool to investigate if you have any flashing content: https://trace.umd.edu/peat"""
+Tool to investigate if you have any flashing content: https://trace.umd.edu/peat
