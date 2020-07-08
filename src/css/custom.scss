@@ -20,7 +20,32 @@
 }
 
 body {
-  font-family: 'Times New Roman', Times, serif
+  font-family: "Libre Franklin", sans-serif;
+
+  .main-wrapper {
+    width: 80%;
+    margin: auto;
+  }
+
+  .menu__list {
+    font-weight: bold;
+
+    svg {
+      margin-right: 10px;
+    }
+    .menu__list {
+      margin-left: 0;
+    }
+    .menu__link {
+      justify-content: start;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .main-wrapper {
+      width: 100%;
+    }
+  }
 }
 
 .docusaurus-highlight-code-line {
@@ -63,7 +88,7 @@ body {
 }
 
 #top-area {
-  background-color: #F2F7FE;
+  background-color: #f2f7fe;
   border-radius: 6px;
   padding: 24px;
   margin-top: 40px;
@@ -78,9 +103,9 @@ body {
   display: flex;
 }
 
-.medium-icon  {
+.medium-icon {
   font-size: 32px;
-  background-color: #E6F0FE;
+  background-color: #e6f0fe;
   float: left;
   width: 72px;
   height: 72px;
@@ -95,8 +120,8 @@ body {
   font-size: 64px;
 }
 
-.top-area-text  {
+.top-area-text {
 }
 
-.icon-area  {
+.icon-area {
 }
