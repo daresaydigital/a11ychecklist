@@ -10,8 +10,9 @@ module.exports = {
     'docusaurus-plugin-sass',
   ],
   themeConfig: {
+    disableDarkMode: true,
     navbar: {
-      hideOnScroll: true,
+      hideOnScroll: false,
       title: "Accessibility Checklist",
       logo: {
         alt: "Daresay Logo",

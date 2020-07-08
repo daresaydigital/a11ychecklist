@@ -16,7 +16,7 @@ import useScrollPosition from "@theme/hooks/useScrollPosition";
 import Link from "@docusaurus/Link";
 import isInternalUrl from "@docusaurus/isInternalUrl";
 
-import styles from "./styles.module.css";
+import styles from "./styles.module.scss";
 import CategorySVG from "../../../static/img/category.svg"
 
 const MOBILE_TOGGLE_SIZE = 24;
@@ -97,6 +97,7 @@ function DocSidebarItemCategory({
     >
       <a
         className={clsx("menu__link", {
+          [styles.menu__link_header]: true,
           // "menu__link--sublist": collapsible,
           // "menu__link--active": collapsible && isActive,
           // [styles.menuLinkText]: !collapsible,
