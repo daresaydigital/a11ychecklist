@@ -1,6 +1,6 @@
 ---
 id: image-alt-attr
-title: Make sure that images that communicates information/meaning have an alt attribute ()
+title: Make sure that images that communicates information/meaning have an alt attribute
 tags:
   - 1.1.1 A
   - Images
