@@ -15,7 +15,10 @@ import useTOCHighlight from "@theme/hooks/useTOCHighlight";
 import Link from "@docusaurus/Link";
 
 import clsx from "clsx";
-import styles from "./styles.module.css";
+import styles from "./styles.module.scss";
+
+import BackSVG from "../../../static/img/back.svg"
+
 
 const LINK_CLASS_NAME = "table-of-contents__link";
 const ACTIVE_LINK_CLASS_NAME = "table-of-contents__link--active";
@@ -80,9 +83,10 @@ function DocItem(props) {
       hide_title: hideTitle,
       hide_table_of_contents: hideTableOfContents = true,
       tags,
-      back,
     },
   } = DocContent;
+
+  const backTo = permalink.split("/").slice(0, -1).concat(["index"]).join("/");
 
   const metaTitle = title ? `${title} | ${siteTitle}` : siteTitle;
   const metaImageUrl = useBaseUrl(metaImage, { absolute: true });
@@ -146,9 +150,9 @@ function DocItem(props) {
             )}
             <div className={styles.docItemContainer}>
               <article>
-                {back && (
-                  <Link to={back}>
-                    Back
+                {backTo !== permalink && permalink !== "/" && (
+                  <Link to={backTo} className={styles.back}>
+                    <BackSVG /> Back
                   </Link>
                 )}
                 {version && (
