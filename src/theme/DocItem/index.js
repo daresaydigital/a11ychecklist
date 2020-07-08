@@ -78,7 +78,7 @@ function DocItem(props) {
       image: metaImage,
       keywords,
       hide_title: hideTitle,
-      hide_table_of_contents: hideTableOfContents,
+      hide_table_of_contents: hideTableOfContents = true,
       tags,
       back,
     },
@@ -206,7 +206,7 @@ function DocItem(props) {
                         </a>
                       )}
                     </div>
-                    {/* {(lastUpdatedAt || lastUpdatedBy) && (
+                    {(lastUpdatedAt || lastUpdatedBy) && (
                       <div className="col text--right">
                         <em>
                           <small>
@@ -243,7 +243,7 @@ function DocItem(props) {
                           </small>
                         </em>
                       </div>
-                    )} */}
+                    )}
                   </div>
                 </div>
               )}

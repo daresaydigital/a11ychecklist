@@ -17,6 +17,7 @@ import Link from "@docusaurus/Link";
 import isInternalUrl from "@docusaurus/isInternalUrl";
 
 import styles from "./styles.module.css";
+import CategorySVG from "../../../static/img/category.svg"
 
 const MOBILE_TOGGLE_SIZE = 24;
 
@@ -96,15 +97,15 @@ function DocSidebarItemCategory({
     >
       <a
         className={clsx("menu__link", {
-          "menu__link--sublist": collapsible,
-          "menu__link--active": collapsible && isActive,
-          [styles.menuLinkText]: !collapsible,
+          // "menu__link--sublist": collapsible,
+          // "menu__link--active": collapsible && isActive,
+          // [styles.menuLinkText]: !collapsible,
         })}
-        onClick={collapsible ? handleItemClick : undefined}
+        // onClick={collapsible ? handleItemClick : undefined}
         href={collapsible ? "#!" : undefined}
         {...props}
       >
-        {label}
+        <CategorySVG /> {label}
       </a>
       <ul className="menu__list">
         {items.map((childItem) => (
@@ -182,7 +183,7 @@ function DocSidebar(props) {
     docsSidebars,
     path,
     sidebar: currentSidebar,
-    sidebarCollapsible,
+    sidebarCollapsible = false,
   } = props;
 
   useLockBodyScroll(showResponsiveSidebar);

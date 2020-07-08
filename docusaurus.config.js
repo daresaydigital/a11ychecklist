@@ -47,8 +47,9 @@ module.exports = {
           // Please change this to your repo.
           editUrl:
             "https://github.com/daresaydigital/a11ychecklist/edit/master",
-          showLastUpdateAuthor: true,
-          showLastUpdateTime: true,
+          showLastUpdateAuthor: false,
+          showLastUpdateTime: false,
+          
         },
         blog: {
           showReadingTime: true,
