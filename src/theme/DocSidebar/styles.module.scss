@@ -40,6 +40,10 @@
     padding: 0.5rem;
   }
 
+  a.menu__link_header:hover {
+    background-color: transparent;
+  }
+
   .menu::-webkit-scrollbar {
     width: 7px;
   }

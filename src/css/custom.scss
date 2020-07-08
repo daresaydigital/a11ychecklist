@@ -22,9 +22,13 @@
 body {
   font-family: "Libre Franklin", sans-serif;
 
-  .main-wrapper {
+  .navbar {
     width: 80%;
     margin: auto;
+
+    .navbar__logo {
+      width: 200px;
+    }
   }
 
   .menu__list {
@@ -41,9 +45,24 @@ body {
     }
   }
 
+  .main-wrapper {
+    width: 80%;
+    margin: auto;
+  }
+
   @media screen and (max-width: 800px) {
     .main-wrapper {
       width: 100%;
+    }
+
+    .navbar {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 500px) {
+
+    .navbar__title {
+      display: none;
     }
   }
 }
