@@ -9,6 +9,9 @@ module.exports = {
   plugins: [
     'docusaurus-plugin-sass',
   ],
+  stylesheets: [
+    "https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,700"
+  ],
   themeConfig: {
     disableDarkMode: true,
     navbar: {
@@ -35,6 +38,7 @@ module.exports = {
       ],
     },
     footer: false,
+    
   },
   presets: [
     [
