@@ -10,9 +10,10 @@ import React from "react";
 import Head from "@docusaurus/Head";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import useBaseUrl from "@docusaurus/useBaseUrl";
-import DocPaginator from "@theme/DocPaginator";
+// import DocPaginator from "@theme/DocPaginator";
 import useTOCHighlight from "@theme/hooks/useTOCHighlight";
 import Link from "@docusaurus/Link";
+import CompletedCheckMark from "@theme/CompletedCheckMark"
 
 import clsx from "clsx";
 import styles from "./styles.module.scss";
@@ -83,6 +84,7 @@ function DocItem(props) {
       hide_title: hideTitle,
       hide_table_of_contents: hideTableOfContents = true,
       tags,
+      show_completed_mark = true,
     },
   } = DocContent;
 
@@ -176,6 +178,11 @@ function DocItem(props) {
                       </aside>
                     )}
                   </header>
+                )}
+                {show_completed_mark &&  (
+                  <div className={styles.completed_mark}>
+                    <CompletedCheckMark id={docId} />
+                  </div>
                 )}
                 <div className="markdown">
                   <DocContent />
