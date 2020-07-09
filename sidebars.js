@@ -16,7 +16,7 @@ module.exports = {
         "images/index",
         "forms/index",
         "gifs/index",
-        "modal dialog/index",
+        "modal-dialog/index",
       ],
     },
   ],
