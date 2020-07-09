@@ -10,8 +10,6 @@ tags:
 sidebar_label: Correct Focus in Modal Navigation
 ---
 
-Mark as completed
-
 ## Description
 
 When a modal dialog is shown, focus must be moved to the dialog so users navigating with keyboard gets access to it. In most cases focus should be set on the first interactive element in the dialog, but there are a few exceptions: 
