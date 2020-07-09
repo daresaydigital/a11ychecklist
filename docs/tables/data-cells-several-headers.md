@@ -1,6 +1,6 @@
 ---
 id: data-cells-several-headers
-title: Use id if the data cell is associated with several headers ()
+title: Use id if the data cell is associated with several headers
 tags:
   - 1.3.1 A
   - Tables
