@@ -42,6 +42,9 @@ body {
     }
     .menu__link {
       justify-content: start;
+      font-weight: 500;
+      line-height: 100%;
+      padding: 8px;
     }
   }
 
@@ -143,4 +146,73 @@ body {
 }
 
 .icon-area {
+}
+
+h1  {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 120%;
+  letter-spacing: -0.5px;
+}
+
+h2  {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 120%;
+  letter-spacing: -0.5px;
+}
+
+h3  {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 125%;
+  letter-spacing: -0.2px;
+}
+
+p {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.base-control {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 100%;
+}
+
+.secondary  {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.secondary-control  {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+}
+
+.caption  {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 135%;
+}
+
+.caption-control  {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 100%;
+}
+
+.caption-light  {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.caption-light-control  {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 100%;
 }

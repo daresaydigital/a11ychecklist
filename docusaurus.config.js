@@ -10,7 +10,7 @@ module.exports = {
     'docusaurus-plugin-sass',
   ],
   stylesheets: [
-    "https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,700"
+    "https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;500;700"
   ],
   themeConfig: {
     disableDarkMode: true,
