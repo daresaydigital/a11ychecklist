@@ -1,12 +1,19 @@
 .item {
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  padding: 20px;
-  margin-bottom: 10px;
+  border: 2px solid #F6F6F6;
+  border-radius: 6px;
+  padding: 24px;
+  margin-bottom: 16px;
 
   a {
-    font-size: 20px;
-    font-weight: bold;
-    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 125%;
+    color: #181D25;
+  }
+  p {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 135%;
+    color: #464A51;
   }
 }
