@@ -10,8 +10,6 @@ tags:
 sidebar_label: Image-only Link Alternative Text
 ---
 
-Mark as completed
-
-## Description
+### Description
 
 For example, search button that only holds a magnifying lens should have an alt text that states "Search", not "Magnifying glass". A printer icon should state "Print this page" instead "image of printer". A clickable logo should state where you end up, e.g. "Daresay home" or "Daresay homepage".

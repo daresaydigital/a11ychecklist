@@ -9,20 +9,18 @@ tags:
 sidebar_label: Group Navigation links with nav 
 ---
 
-Mark as completed
-
-## Description
+### Description
 
 ...
 
-## What to do
+### What to do
 
 ...
 
-## Example
+### Example
 
 ...
 
-## Exceptions
+### Exceptions
 
 ...

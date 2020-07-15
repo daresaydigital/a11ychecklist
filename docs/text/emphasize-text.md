@@ -7,11 +7,11 @@ tags:
 sidebar_label: Emphasize Text
 ---
 
-## Description
+### Description
 
 When the appearance of text conveys meaning, make sure to use the appropriate semantic markup so screen readers and other assistive technology will pronounce the words correct.
 
-## Examples
+### Examples
 
 - Use em and strong instead of using italics and bold text to highlight important text.
 - Use blockquote to mark quotations.

@@ -9,12 +9,10 @@ tags:
 sidebar_label: Alternative Texts for Interactive Image Maps
 ---
 
-Mark as completed
-
-## Description
+### Description
 
 ... 
 
-## Additional Information
+### Additional Information
 
 See: https://www.w3.org/WAI/tutorials/images/imagemap/

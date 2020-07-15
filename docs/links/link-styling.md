@@ -7,7 +7,7 @@ tags:
 sidebar_label: Link Styling
 ---
 
-## Description
+### Description
 
 Color alone is not sufficient to indicate the presence of a link, additional cues like underline, bigger font, another font, bold, etc must be used.
 

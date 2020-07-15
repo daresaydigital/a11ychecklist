@@ -7,7 +7,7 @@ tags:
 sidebar_label: Descriptive Instructions
 ---
 
-## Description
+### Description
 
 Write the copy so all users can make sense of it by using more than one sensory characteristics (shape, color, size, visual location, orientation, sound).
 

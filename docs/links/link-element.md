@@ -7,6 +7,6 @@ tags:
 sidebar_label: Link Element
 ---
 
-## Description
+### Description
 
 Avoid using div, span, etc for links.

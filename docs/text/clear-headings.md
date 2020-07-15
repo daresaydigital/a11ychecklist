@@ -7,7 +7,7 @@ tags:
 sidebar_label: Clear Headings
 ---
 
-## Description
+### Description
 
 By making the copy for the headings clear, concise and easily understood, user’s will understand what kind of information is available on the page and how it’s organised.
 

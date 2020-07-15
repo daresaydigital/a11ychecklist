@@ -8,8 +8,6 @@ tags:
 sidebar_label: Tables with Titles/Headings
 ---
 
-Mark as completed
-
-## Description
+### Description
 
 Caption ensures that the title/heading gets associated with the table. Screen readers can navigate directly to a table caption if it's available.

@@ -9,13 +9,11 @@ tags:
 sidebar_label: Repeated component occurence
 ---
 
-Mark as completed
-
-## Description
+### Description
 
 This will help users to predict where they find content on each page, like search, skip to main content link, primary and secondary navigation, logo, etc. 
 This requirement also implies that all content and functionality shall be available in all orientations.
 
-## Exceptions
+### Exceptions
 
  If the user has chosen to change the order, either by using an adaptive mechanism or setting a preference. 
