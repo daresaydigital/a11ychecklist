@@ -7,10 +7,11 @@ tags:
 sidebar_label: Scalable Text
 ---
 
-## Description
+### Description
 
 Make sure that the font is scalable by using percentage or em.
 
-## Exceptions
+### Exceptions
+
 1. Images of text
 2. Captions (video)

@@ -10,13 +10,11 @@ tags:
 sidebar_label: Use Text Rather Than Images of Text
 ---
 
-Mark as completed
-
-## Description
+### Description
 
 This is important so people can adjust the representation of the text to fit their needs (change font size, foreground/background color, font family, line spacing, etc). 
 
-## Exceptions
+### Exceptions
 
 1) When a particular presentation of text is essential to the information being conveyed like type samples, logotypes, branding, etc. 
 2) When the author doesn't have the right to redistribute. 

@@ -8,9 +8,7 @@ tags:
 sidebar_label: Markup for Data Relationship
 ---
 
-Mark as completed
-
-## Description
+### Description
 
 Use table headers appropriately (data cells are associated with their headers).
 

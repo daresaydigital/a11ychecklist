@@ -9,17 +9,13 @@ tags:
 sidebar_label: Descriptions for Complex Visuals
 ---
 
-Mark as completed
-
-## Description
+### Description
 
 Can be done in different ways. 
 - If the image is described in adjacent text, write in alt text under which section the information can be found. 
 - Create a separate page with the information that is linked from an adjacent image text. 
 - aria-describedby can be used for text-only information.
 
-
-
-## Additional Information
+### Additional Information
 
 See: https://www.w3.org/WAI/tutorials/images/complex/

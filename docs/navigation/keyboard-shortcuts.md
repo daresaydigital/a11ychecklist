@@ -9,7 +9,7 @@ tags:
 sidebar_label: 
 ---
 
-## Description
+### Description
 
 This applies to keyboard shortcuts consisting of printable character keys: 
 - Letters (including upper- and lower-case)
@@ -26,11 +26,11 @@ Not applied:
 - Two-step shortcut that includes a non-printable key, for example first accessing an element with a single non-character shortcut (e.g. Alt or Alt+F) and then pressing a single character key to select an item. 
 - When a modifier key is required, like with accesskeys.
 
-## Exceptions
+### Exceptions
 
 It’s unclear if this requirement only applies when the keyboard shortcuts consist of a single character shortcut. Single character shortcuts seem to yield more problems.
 
-## Additional information
+### Additional information
 
 Different definitions of characters and keys: 
 - https://en.wikipedia.org/wiki/ASCII#Printable_characters

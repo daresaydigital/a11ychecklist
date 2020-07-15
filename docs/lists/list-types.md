@@ -8,8 +8,6 @@ tags:
 sidebar_label: Appropriate List Types
 ---
 
-Mark as completed
-
-## Description
+### Description
 
 Ordered, unorder, definition lists.

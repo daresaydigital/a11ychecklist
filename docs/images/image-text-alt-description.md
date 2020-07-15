@@ -10,8 +10,6 @@ tags:
 sidebar_label: Alt Description for Images Containing Text
 ---
 
-Mark as completed
-
-## Description
+### Description
 
 You should not use text as image. For those cases it can not be avoided, like for instance in a non-clickable logo the alt text should state what the logo says, e.g. "Daresay".

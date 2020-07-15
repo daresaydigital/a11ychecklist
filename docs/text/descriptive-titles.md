@@ -9,9 +9,7 @@ tags:
 sidebar_label: Descriptive Titles
 ---
 
-Mark as completed
-
-## Description
+### Description
 
 Each page should have a descriptive, informative and unique title which makes it easy for the user to understand what the page is about and what to expect of it.
 

@@ -7,6 +7,6 @@ tags:
 sidebar_label: Heading Elements
 ---
 
-## Description
+### Description
 
 Make sure to use h1, h2, h3, etc for headings. When it's not possible to use native heading mark-up (due to legacy), use role="heading".

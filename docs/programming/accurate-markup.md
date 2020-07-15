@@ -7,7 +7,7 @@ tags:
 sidebar_label: Accurate Markup
 ---
 
-## Description
+### Description
 
 It’s important that the markup is accurate so that assistive technologies can interpret and parse the content, which rely on the markup in DOM.
 

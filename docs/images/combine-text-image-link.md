@@ -10,9 +10,7 @@ tags:
 sidebar_label: Combine Image and Text Links to the Same Location
 ---
 
-Mark as completed
-
-## Description
+### Description
 
 Having everything clickable is good for touch areas but don't repeat the link for every element since screen readers will read them one by one.
 

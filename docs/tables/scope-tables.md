@@ -8,8 +8,6 @@ tags:
 sidebar_label: Use Scope for Complex Tables
 ---
 
-Mark as completed
-
-## Description
+### Description
 
 Associate header cells with data cells in complex tables using the scope attribute. Choose the appropriate value - row, col, rowgroup, or colgroup.
