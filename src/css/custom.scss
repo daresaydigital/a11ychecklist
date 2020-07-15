@@ -6,17 +6,62 @@
  */
 
 /* You can override the default Infima variables here. */
+
 :root {
-  --ifm-color-primary: #0067f3;
-  --ifm-color-primary-dark: #005ddb;
-  --ifm-color-primary-darker: #0058cf;
-  --ifm-color-primary-darkest: #0048aa;
-  --ifm-color-primary-light: #0c73ff;
-  --ifm-color-primary-lighter: #187aff;
-  --ifm-color-primary-lightest: #3d8fff;
+
+  /* Overwritten Infima variables */
+
+  --ifm-color-primary: #0067F3;
+  --ifm-color-primary-dark: #005ddb; // unmodified
+  --ifm-color-primary-darker: #0058cf; // unmodified
+  --ifm-color-primary-darkest: #0048aa; // unmodified
+  --ifm-color-primary-light: #0c73ff; 
+  --ifm-color-primary-lighter: #187aff; 
+  --ifm-color-primary-lightest: #F2F7FE; 
   --ifm-code-font-size: 95%;
-  --ifm-color-gray-light: #e8e8e9;
-  --ifm-color-gray-dark: #6f7277;
+
+  --ifm-color-white: #fff;
+  --ifm-color-black: #181D25;
+
+  --ifm-color-gray-0: var(--ifm-color-white);
+  --ifm-color-gray-100: #F6F6F6; 
+  --ifm-color-gray-200: #E8E8E9;
+  //--ifm-color-gray-300: #dadde1;  Not in our scale (unmodified)
+  --ifm-color-gray-400: #A3A5A8;
+  //--ifm-color-gray-500: #bec3c9;  Not in our scale (unmodified)
+  --ifm-color-gray-600: #6F7277;
+  //--ifm-color-gray-700: #606770;  Not in our scale (unmodified)
+  --ifm-color-gray-800: #464A51;
+  --ifm-color-gray-900: #181D25; // Not in our scale - changed this to our black
+  // --ifm-color-gray-1000: var(--ifm-color-black); Not in our scale (unmodified)
+  
+
+/* Our own defined color styles - USE THESE INSTEAD */
+
+/* Primary blue */
+--color-primary-80: #0067F3;
+--color-primary-60: #66A4F8;
+--color-primary-40: #99C2FA;
+--color-primary-10: #E6F0FE;
+--color-primary-5: #F2F7FE;
+
+/* Grays */
+--color-gray-80: #464A51;
+--color-gray-60: #6F7277;
+--color-gray-40: #A3A5A8;
+--color-gray-20: #D1D2D3;
+--color-gray-10: #E8E8E9;
+--color-gray-5: #F6F6F6;
+
+/* Black & white */
+--color-black: #181D25;
+--color-white: #FFFFFF;
+
+/* Negative */
+--color-negative: #E82017;
+
+/* Positive */
+--color-positive-60: #7FB289;
 }
 
 body {
