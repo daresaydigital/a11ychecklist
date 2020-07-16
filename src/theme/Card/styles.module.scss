@@ -1,11 +1,12 @@
 .card {
   background-color: #F2F7FE;
   border-radius: 6px;
-  padding: 24px;
-  margin-top: 40px;
-  margin-bottom: 24px;
+  padding: var(--spacing-small-24) var(--spacing-medium-32);
+  //margin: var(--spacing-medium-40) 0 var(--spacing-large-48) 0;
+  margin-top: var(--spacing-base);
+  margin-bottom: var(--spacing-small-16);
 }
 
 .icon {
-  font-size: 64px;
+  font-size: 4rem;
 }

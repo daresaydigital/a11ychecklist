@@ -36,7 +36,7 @@
   // --ifm-color-gray-1000: var(--ifm-color-black); Not in our scale (unmodified)
   
 
-/* Our own defined color styles - USE THESE INSTEAD */
+/* OUR OWN COLOR STYLES FROM THE DESIGN - USE THESE INSTEAD */
 
 /* Primary blue */
 --color-primary-80: #0067F3;
@@ -62,6 +62,16 @@
 
 /* Positive */
 --color-positive-60: #7FB289;
+
+/* SPACING MODIFIERS */
+
+--spacing-base: 0.5rem; // 8px
+--spacing-small-16: calc(var(--spacing-base) * 2); // 16px
+--spacing-small-24: calc(var(--spacing-base) * 3); // 24px
+--spacing-medium-32: calc(var(--spacing-base) * 4); // 32px
+--spacing-medium-40: calc(var(--spacing-base) * 5); // 40px
+--spacing-large-48: calc(var(--spacing-base) * 6); // 48px
+--spacing-large-64: calc(var(--spacing-base) * 8); // 64px
 
 }
 
