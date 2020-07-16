@@ -1,20 +1,22 @@
 .item {
-  border: 2px solid #F6F6F6;
+  border: 2px solid var(--color-gray-10);
   border-radius: 6px;
-  padding: 24px;
-  margin-bottom: 16px;
+  padding: var(--spacing-small-16) var(--spacing-small-24);
+  margin-bottom: var(--spacing-small-16);
 
   a {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: bold;
     line-height: 125%;
-    letter-spacing: -0.2px;
-    color: #181D25;
+    letter-spacing: -0.0125rem; // -0.2px
+    color: var(--color-black);
   }
   p {
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: normal;
     line-height: 150%;
-    color: #464A51;
+    color: var(--color-gray-80);
+    margin-bottom: var(--spacing-small-16);
   }
+
 }
