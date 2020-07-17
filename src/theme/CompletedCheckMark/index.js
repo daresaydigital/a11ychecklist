@@ -24,10 +24,11 @@ export default ({ id }) => {
     <div className={clsx(styles.completecheck, { [styles.checked]: isChecked })}>
       <input
         type="checkbox"
+        id={id}
         checked={isChecked ? true : false}
         onChange={toggleChecked}
       />
-      {isChecked ? "Completed" : "Mark as Completed"}
+      <label htmlFor={id} >{isChecked ? "Completed" : "Mark as Completed"}</label>
     </div>
   )
 }
