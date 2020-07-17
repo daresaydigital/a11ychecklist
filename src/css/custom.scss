@@ -80,8 +80,17 @@ body {
   font-family: "Libre Franklin";
 
   .navbar {
-    width: 80%;
+    width: 100%;
     margin: auto;
+    justify-content: center;
+
+    .navbar__inner {
+      width: auto;
+    }
+
+    .navbar__brand {
+      margin: 0;
+    }
 
     .navbar__logo {
       width: 100px;
@@ -198,12 +207,12 @@ body {
 .big-icon {
   font-size: 64px;
 }
-
+/*
 .top-area-text {
 }
 
 .icon-area {
-}
+}*/
 
 h1  {
   font-weight: bold;
