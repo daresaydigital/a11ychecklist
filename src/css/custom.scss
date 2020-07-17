@@ -115,21 +115,27 @@ body {
   }
 
   .main-wrapper {
-    width: 80%;
+    max-width: 1024px;
     margin: auto;
+  }
+
+  @media screen and (max-width: 980px) {
+    .container {
+      padding-left: 1rem;
+    }
   }
 
   @media screen and (max-width: 800px) {
     .main-wrapper {
       width: 100%;
     }
-
+    
     .navbar {
       width: 100%;
     }
   }
   @media screen and (max-width: 500px) {
-
+   
     .navbar__title {
       display: none;
     }
