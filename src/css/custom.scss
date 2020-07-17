@@ -152,7 +152,7 @@ body {
 }
 
 .tags {
-  margin-bottom: 28px;
+  margin-bottom: var(--spacing-small-16);
 }
 
 .tags a,
@@ -160,9 +160,9 @@ body {
   display: inline-block;
   margin-right: 10px;
   padding: 2px 8px;
-  border: 1px solid var(--ifm-color-gray-light);
+  border: 1px solid var(--color-gray-10);
   border-radius: 4px;
-  color: var(--ifm-color-gray-dark);
+  color: var(--color-gray-60);
 }
 
 .menu__link:hover,
@@ -333,18 +333,44 @@ p {
 
 ol {
   list-style: none;
-  counter-reset: my-awesome-counter;
+  counter-reset: the-counter;
   font-weight: normal;
   font-size: 1.125rem;
   line-height: 150%;
   padding-left: var(--spacing-small-16);
 }
 ol li {
-  counter-increment: my-awesome-counter;
+  counter-increment: the-counter;
   margin-bottom: var(--spacing-small-16);
+  display: flex;
 }
 ol li::before {
-  content: counter(my-awesome-counter) ". ";
+  content: counter(the-counter) ". ";
   font-weight: bold;
   margin-right: var(--spacing-base);
+  display: inline;
+  flex: 0 0 var(--spacing-small-24);
+}
+
+ul {
+  font-weight: normal;
+  font-size: 1.125rem;
+  line-height: 150%;
+  padding-left: var(--spacing-medium-32);
+}
+ul li {
+  margin-bottom: var(--spacing-small-16);
+}
+ul li::before {
+  margin-right: var(--spacing-base);
+}
+
+.markdown > h3 {
+  margin-bottom: var(--spacing-small-16);
+  margin-top: var(--spacing-medium-32);
+}
+
+.markdown > h4 {
+  margin-bottom: var(--spacing-small-16);
+  margin-top: var(--spacing-small-16);
 }
