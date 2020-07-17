@@ -374,3 +374,7 @@ ul li::before {
   margin-bottom: var(--spacing-small-16);
   margin-top: var(--spacing-small-16);
 }
+
+body .menu__list .menu__link {
+  font-size: 1rem;
+}
