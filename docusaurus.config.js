@@ -30,11 +30,11 @@ module.exports = {
         //   position: "left",
         // },
         // { to: "blog", label: "Blog", position: "left" },
-        {
-          href: "https://github.com/daresaydigital/a11ychecklist",
-          label: "GitHub",
-          position: "right",
-        },
+        //{
+        //  href: "https://github.com/daresaydigital/a11ychecklist",
+        //  label: "GitHub",
+        //  position: "left",
+        //},
       ],
     },
     footer: false,
