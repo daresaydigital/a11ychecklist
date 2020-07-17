@@ -18,7 +18,7 @@ Make the design responsive so it can be displayed down to a width of 320 CSS pix
 - Avoid horizontal scrolling to about 320 CSS pixels width
 - Use responsive design if possible
 - Create an adapted mobile design if responsive design isn’t possible
-- Documents that are not a webpage should also be readable in a limited width
+- Documents that are not a webpage should also be readable in a limited width - Documents that are not a webpage should also be readable in a limited width
 
 ### Example
 
