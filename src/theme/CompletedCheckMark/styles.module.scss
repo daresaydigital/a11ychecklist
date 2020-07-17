@@ -1,11 +1,82 @@
 .completecheck {
   display: inline-block;
-  margin-right: 10px;
-  padding: 2px 8px;
-  border: 1px solid var(--color-gray-10);
+  padding: var(--spacing-base);
+  background-color: var(--color-primary-5);
   border-radius: 4px;
-  color: var(--color-gray-60);
+  color: var(--color-gray-80);
+  font-size: 1rem;
 }
 
+/*
 .checked {
+ 
+}*/
+
+/* Custom styling for checkbox */
+
+input[type="checkbox"] {
+  opacity: 0;
+  position: absolute;
+}
+
+label {
+  position: relative;
+  display: inline-block;
+  
+  /*16px width of fake checkbox + 6px distance between fake checkbox and text*/
+  padding-left: 1.5rem;
+}
+
+label::before,
+label::after {
+  position: absolute;
+  content: "";
+  
+  /*Needed for the line-height to take effect*/
+  display: inline-block;
+}
+
+label::before{
+  height: 1rem;
+  width: 1rem;
+  border: 1px solid var(--color-primary-80);
+  left: 0px;
+  border-radius: 2px;
+  
+  background-color: var(--color-white);
+  /*(24px line-height - 16px height of fake checkbox) / 2 - 1px for the border
+   *to vertically center it.
+   */
+  top: 0.1875rem; // 3px
+}
+
+/*Checkmark */
+label::after {
+  height: 0.3125rem;
+  width: 0.5625rem;
+  border-left: 2px solid var(--color-white);
+  border-bottom: 2px solid var(--color-white);
+  transform: rotate(-45deg);
+  
+  left: 0.25rem;
+  top: 0.4375rem;
+}
+
+/*Hide the checkmark by default*/
+input[type="checkbox"] + label::after {
+  content: none;
+}
+
+/*Unhide on the checked state*/
+input[type="checkbox"]:checked + label::after {
+  content: "";
+} 
+
+input[type="checkbox"]:checked + label::before {
+  background-color: var(--color-primary-80);
+}
+
+/*Adding focus styles on the outer-box of the fake checkbox*/
+input[type="checkbox"]:focus + label::before {
+  outline: var(--color-primary-80) solid 2px;
 }
