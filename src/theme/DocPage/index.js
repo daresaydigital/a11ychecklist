@@ -32,11 +32,22 @@ function DocPage(props) {
   const sidebarWithFallback = sidebar || permalinkToSidebar[rootPath]
 
   const {
-    siteConfig: {themeConfig = {}} = {},
+    siteConfig: {customFields: { aliasRoutes = {}}, themeConfig = {}} = {},
     isClient,
   } = useDocusaurusContext();
 
   const {sidebarCollapsible = true} = themeConfig;
+
+  const shouldBeAdded = [];
+  baseRoute.routes.forEach(route => {
+    Object.keys(aliasRoutes).forEach(origin => {
+      if (route.path.indexOf(origin) == 0) {
+        shouldBeAdded.push(Object.assign({}, route, {path: route.path.replace(origin, aliasRoutes[origin])}));
+      }
+    });
+  });
+
+  shouldBeAdded.forEach(route => baseRoute.routes.push(route));
 
   if (Object.keys(currentRoute).length === 0) {
     return <NotFound {...props} />;
