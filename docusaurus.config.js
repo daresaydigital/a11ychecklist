@@ -12,6 +12,11 @@ module.exports = {
   stylesheets: [
     "https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;500;700"
   ],
+  customFields: {
+    aliasRoutes: {
+      "/interaction/": "/buttons/",
+    }
+  },
   themeConfig: {
     disableDarkMode: true,
     navbar: {

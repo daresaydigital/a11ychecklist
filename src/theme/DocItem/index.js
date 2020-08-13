@@ -88,7 +88,7 @@ function DocItem(props) {
     },
   } = DocContent;
 
-  const backTo = permalink.split("/").slice(0, -1).concat(["index"]).join("/");
+  const backTo = props.route.path.split("/").slice(0, -1).concat(["index"]).join("/");
 
   const metaTitle = title ? `${title} | ${siteTitle}` : siteTitle;
   const metaImageUrl = useBaseUrl(metaImage, { absolute: true });
