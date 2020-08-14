@@ -19,129 +19,129 @@ All of the text and copy on the web page should be adapted to fit the context, b
 <CategoryItem id="scalable-text">
 
 [Ensure that text is scalable](scalable-text.md).
-
+<!--
 Make sure that the font is scalable by using percentage or em
-
+-->
 </CategoryItem>
 
 <CategoryItem id="increased-text-size">
 
 [Ensure that it's possible to increase the text size 200% without loss of content or functionality](increased-text-size.md).
-
+<!--
 Make sure that when the text size is increased, that no cropping of text occur, no overlay of text with surrouding elements, no falling outside of container boundaries, etc (make sure the container also grows).
-
+-->
 </CategoryItem>
 
 <CategoryItem id="text-styles">
 
 [Make sure that users can change these text styles without loss of content or functionality](text-styles.md).
-
+<!--
 It's important that people can override different text styles to improve their reading experience, without getting problems like overlap with other elements, text going outside of viewport or getting cut off (i.e. the container of the text must adapt in height/width with the text).
-
+-->
 </CategoryItem>
 
 <CategoryItem id="scalable-text">
 
 [Ensure that text is scalable](scalable-text.md).
-
+<!--
 Make sure that the font is scalable by using percentage or em
-
+-->
 </CategoryItem>
 
 <CategoryItem id="text-contrast">
 
 [Normal-sized texts (smaller than 18pt/24px with normal weight or 14pt/18.66px in bold) shall have a contrast of 4.5:1 against the background](text-contrast.md).
-
+<!--
 This includes all meaningful text in the UI; text in buttons, links, placeholder text in input fields, images of text, texts that are parts of a diagram, chart, graphs, etc. It also includes different states that text can be part of, like hover, focus, highlighted/selected text.
-
+-->
 </CategoryItem>
 
 <CategoryItem id="large-text-contrast">
 
 [Large-sized texts (at least 18pt/24px with normal weight or 14pt/18.66px in bold) shall have a contrast of 3:1 against the background](large-text-contrast.md).
-
+<!--
 This includes all meaningful text in the UI; text in buttons, links, placeholder text in input fields, images of text, texts that are parts of a diagram, chart, graphs, etc. It also includes different states that text can be part of, like hover, focus, highlighted/selected text.
-
+-->
 </CategoryItem>
 
 <CategoryItem id="clear-headings">
 
 [Headings that are used should be clear and descriptive](clear-headings.md).
-
+<!--
 By making the copy for the headings clear, concise and easily understood, user’s will understand what kind of information is available on the page and how it’s organised.
-
+-->
 </CategoryItem>
 
 <CategoryItem id="descriptive-instructions">
 
 [Make sure available instructions that informs users of how to operate content/controls include several sensory characteristics](descriptive-instructions.md).
-
+<!--
 Write the copy so all users can make sense of it by using more than one sensory characteristics (shape, color, size, visual location, orientation, sound).
-
+-->
 </CategoryItem>
 
 <CategoryItem id="emphasize-text">
 
 [Emphasize text correctly](emphasize-text.md).
-
+<!--
 When the appearence of text conveys meaning, make sure to use the appropriate semantic markup so screen readers and other assitive technology will pronounce the words correct.
-
+-->
 </CategoryItem>
 
 <CategoryItem id="letter-spacing">
 
 [Use letter-spacing in CSS instead of adding spaces in words](letter-spacing.md).
-
+<!--
 Adding spaces will make the words difficult for screen readers and other assistive technology to read out aloud. 
-
+-->
 </CategoryItem>
 
 <CategoryItem id="heading-elements">
 
 [Use h-elements for headings](heading-elements.md).
-
+<!--
 Make sure to use h1, h2, h3, etc for headings. When it's not possible to use native heading mark-up (due to legacy), use role="heading".
-
+-->
 </CategoryItem>
 
 <CategoryItem id="hyphenation">
 
 [Make sure that long words (like URL's) are hyphened](hyphenation.md).
-
+<!--
 It's important that long words wraps so that they still are readable on devices with limited width.
-
+-->
 </CategoryItem>
 
 <CategoryItem id="default-language">
 
 [Set the appropriate default language for pages](default-language.md).
-
+<!--
 Use the lang attribute so that assistive technologies such as screen readers can load the correct pronunciation rules, browsers can render text correctly, etc.
-
+-->
 </CategoryItem>
 
 <CategoryItem id="other-languages">
 
 [If a portion of page is in another language than the default for the page, set the appropriate language for it](other-languages.md).
-
+<!--
 If there are phrases, sentences, paragraphs, links etc written with another language than the default set for the whole page, then the appropriate lang attribute must be set for that part. 
-
+-->
 </CategoryItem>
 
 <CategoryItem id="emoticons">
 
 [Make sure there is a text alternative for emoticons and ASCII art](emoticons.md).
-
+<!--
 Emoticon: :) will be read ""colon right parenthesis"". Use abbr for giving more context for it.
 
 https://www.w3.org/WAI/WCAG21/Techniques/html/H86.html
-
+-->
 </CategoryItem>
 
 <CategoryItem id="identify-font-icons">
 
 [Semantically identify a font icon](identify-font-icons.md).
-
+<!--
 Some low vision users override fonts (to better percieve content) and then font icons can turn into things that convey no meaning (star icon for favorite gets replaced by a square). By setting role="img" the font icon is not replaced. Also add an aria-label for the font icon to be read correctly.
-
+-->
 </CategoryItem>
