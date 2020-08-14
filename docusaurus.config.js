@@ -14,6 +14,7 @@ module.exports = {
     aliasRoutes: {
       "/gifs/": "/video/",
       "/video/": "/images/",
+      "/audio/": "/video/",
     },
   },
   themeConfig: {
