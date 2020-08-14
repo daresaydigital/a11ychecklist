@@ -6,16 +6,15 @@ module.exports = {
   favicon: "img/favicon.ico",
   organizationName: "daresay", // Usually your GitHub org/user name.
   projectName: "a11ychecklist", // Usually your repo name.
-  plugins: [
-    'docusaurus-plugin-sass',
-  ],
+  plugins: ["docusaurus-plugin-sass"],
   stylesheets: [
-    "https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;500;700"
+    "https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;500;700",
   ],
   customFields: {
     aliasRoutes: {
       "/interaction/": "/buttons/",
-    }
+      "/gifs/": "/video/",
+    },
   },
   themeConfig: {
     disableDarkMode: true,
@@ -43,7 +42,6 @@ module.exports = {
       ],
     },
     footer: false,
-    
   },
   presets: [
     [
@@ -59,7 +57,6 @@ module.exports = {
             "https://github.com/daresaydigital/a11ychecklist/edit/master",
           showLastUpdateAuthor: false,
           showLastUpdateTime: false,
-          
         },
         blog: {
           showReadingTime: true,
