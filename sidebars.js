@@ -10,7 +10,6 @@ module.exports = {
         "interaction/index",
         "buttons/index",
         "tables/index",
-        "lists/index",
         "controls/index",
         "programming/index",
         "navigation/index",
