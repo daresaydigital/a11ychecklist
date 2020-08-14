@@ -11,4 +11,7 @@ sidebar_label: Descriptive Instructions
 
 Write the copy so all users can make sense of it by using more than one sensory characteristics (shape, color, size, visual location, orientation, sound).
 
-Example: ""To submit the form, press the round button labeled ""Go"""". It's not enough just to say ""To submit the form, press the button below"".
+Example:
+
+- Instead of "To submit the form, press the button below", write "To submit the form, press the round button labeled Go".
+- Instead of "Press the green button to proceed to the next step", write "Press the green button labeled Go to proceed to the next step."
