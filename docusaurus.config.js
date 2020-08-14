@@ -12,7 +12,6 @@ module.exports = {
   ],
   customFields: {
     aliasRoutes: {
-      "/interaction/": "/buttons/",
       "/gifs/": "/video/",
       "/video/": "/images/",
     },
