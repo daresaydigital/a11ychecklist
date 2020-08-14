@@ -14,6 +14,7 @@ module.exports = {
     aliasRoutes: {
       "/interaction/": "/buttons/",
       "/gifs/": "/video/",
+      "/video/": "/images/",
     },
   },
   themeConfig: {
