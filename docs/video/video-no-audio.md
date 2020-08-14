@@ -1,6 +1,6 @@
 ---
 id: video-no-audio
-title: For pre-recorded video (with no audio) a text alternative or audio description should be provided, unless the video is only decorative
+title: For pre-recorded video (with no audio) a text alternative or audio description should be provided
 tags:
   - 1.1.1 A
   - 1.2.1 A
@@ -25,3 +25,7 @@ Present the same information that's in the video either as:
 
 - A document. Which includes all important information as well as descriptions of scenary, actions, expressions etc (an updated screen play).
 - As audio. One way of doing this is to provide an audio track describing the information in the video. The audio should be a common audio format used on the internet, such as MP3.
+
+### Exceptions
+
+- No text alternative or audio description is needed if the video is only decorative.
