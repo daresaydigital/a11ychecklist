@@ -8,6 +8,7 @@ module.exports = {
         "landing",
         "audio/index",
         "buttons/index",
+        "content/index",
         "controls/index",
         "forms/index",
         "gifs/index",
