@@ -9,7 +9,7 @@ tags:
   - Tooltips
   - Pop-overs
   - Dropdowns
-sidebar_label: Content time limit
+sidebar_label: Pop-up content
 ---
 
 ### Description
