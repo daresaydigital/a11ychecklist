@@ -14,6 +14,7 @@ import useBaseUrl from "@docusaurus/useBaseUrl";
 import useTOCHighlight from "@theme/hooks/useTOCHighlight";
 import Link from "@docusaurus/Link";
 import CompletedCheckMark from "@theme/CompletedCheckMark"
+import {ProgressProvider} from "@theme/ProgressBar"
 
 import clsx from "clsx";
 import styles from "./styles.module.scss";
@@ -179,14 +180,16 @@ function DocItem(props) {
                     )}
                   </header>
                 )}
-                {show_completed_mark &&  (
-                  <div className={styles.completed_mark}>
-                    <CompletedCheckMark id={docId} />
+                <ProgressProvider>
+                  {show_completed_mark &&  (
+                    <div className={styles.completed_mark}>
+                      <CompletedCheckMark id={docId} />
+                    </div>
+                  )}
+                  <div className="markdown">
+                    <DocContent />
                   </div>
-                )}
-                <div className="markdown">
-                  <DocContent />
-                </div>
+                </ProgressProvider>
               </article>
               {(editUrl || lastUpdatedAt || lastUpdatedBy) && (
                 <div className="margin-vert--xl">
