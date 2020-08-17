@@ -42,7 +42,9 @@ function DocPage(props) {
   baseRoute.routes.forEach(route => {
     Object.keys(aliasRoutes).forEach(origin => {
       if (route.path.indexOf(origin) == 0) {
-        shouldBeAdded.push(Object.assign({}, route, {path: route.path.replace(origin, aliasRoutes[origin])}));
+        aliasRoutes[origin].forEach(aroute => {
+          shouldBeAdded.push(Object.assign({}, route, {path: route.path.replace(origin, aroute)}));
+        });
       }
     });
   });
