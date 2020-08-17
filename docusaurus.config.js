@@ -12,9 +12,10 @@ module.exports = {
   ],
   customFields: {
     aliasRoutes: {
-      "/gifs/": "/video/",
-      "/video/": "/images/",
-      "/audio/": "/video/",
+      // "/abc/": ["/def/", "/ghi/"],
+      "/gifs/": ["/video/"],
+      "/video/": ["/images/"],
+      "/audio/": ["/video/"],
     },
   },
   themeConfig: {
