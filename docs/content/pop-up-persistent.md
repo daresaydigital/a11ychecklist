@@ -8,7 +8,7 @@ tags:
   - Tech
   - Tooltips
   - Pop-overs
-  - Dropdowns
+  - Drop downs
 sidebar_label: Pop-up content
 ---
 
