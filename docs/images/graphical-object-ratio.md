@@ -1,6 +1,6 @@
 ---
 id: graphical-object-ratio
-title: Every graphical object that is needed for the user to understand the content must have a contrast ratio of at least 3:1 against adjacent color(s) (1.4.11 AA)
+title: Every graphical object that is needed for the user to understand the content must have a contrast ratio of at least 3:1 against adjacent color(s)
 tags:
   - 1.4.11 AA
   - Images
