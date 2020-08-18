@@ -1,6 +1,6 @@
 ---
 id: custom-control
-title: When creating a custom control, make sure it gives the right information to assistive technology (4.1.2 A)
+title: When creating a custom control, make sure it gives the right information to assistive technology
 tags:
   - 4.1.2. A
   - Control
