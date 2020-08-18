@@ -1,6 +1,6 @@
 ---
 id: controls-visible-focus
-title: Make sure controls have a highly visible focus indicator (1.4.11 A, 2.4.7 AA)
+title: Make sure controls have a highly visible focus indicator
 tags:
   - 2.4.7 AA
   - 1.4.11 A
