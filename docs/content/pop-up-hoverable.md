@@ -1,6 +1,6 @@
 ---
 id: pop-up-hoverable
-title: Any pop-up content that is shown on hover must also be hoverable (1.4.13 AA)
+title: Any pop-up content that is shown on hover must also be hoverable
 tags:
   - 1.4.13 AA
   - Content
