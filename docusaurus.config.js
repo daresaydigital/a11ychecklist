@@ -20,6 +20,7 @@ module.exports = {
       "/controls/": ["/buttons/"],
       "/forms/":  ["/controls/"],
       "/text/": ["/layout/","/images/"],
+      "/images/": ["/text/","/links/"],
     },
   },
   themeConfig: {
