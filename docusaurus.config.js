@@ -16,7 +16,7 @@ module.exports = {
       "/gifs/": ["/video/"],
       "/video/": ["/images/"],
       "/audio/": ["/video/"],
-      "/text/": ["/layout/"],
+      "/text/": ["/layout/","/images/"],
     },
   },
   themeConfig: {
