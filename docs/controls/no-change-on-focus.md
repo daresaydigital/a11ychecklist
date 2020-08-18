@@ -1,6 +1,6 @@
 ---
 id: no-change-on-focus
-title: No unexpected change in context shall occur when a control receives focus (3.2.1 A)
+title: No unexpected change in context shall occur when a control receives focus 
 tags:
   - 3.2.1 A
   - Controls
