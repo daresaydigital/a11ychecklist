@@ -1,6 +1,6 @@
 ---
 id: accessible-name
-title: Make sure that controls with visible label (either as text or image) has a matching “accessible name” (2.5.3 A)
+title: Make sure that controls with visible label (either as text or image) has a matching “accessible name”
 tags:
   - 2.5.3 A
   - Controls
