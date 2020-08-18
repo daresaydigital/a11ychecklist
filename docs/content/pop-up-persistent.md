@@ -1,6 +1,6 @@
 ---
 id: pop-up-persistent
-title: Any pop-up content that is shown on hover or focus must remain persistent (1.4.13 AA)
+title: Any pop-up content that is shown on hover or focus must remain persistent
 tags:
   - 1.4.13 AA
   - Content
