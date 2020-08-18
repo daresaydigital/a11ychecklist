@@ -1,6 +1,6 @@
 ---
 id: stop-action
-title: Make sure that it's possible to stop or undo the action when the action is triggered on the up-event (2.5.2 A)
+title: Make sure that it's possible to stop or undo the action when the action is triggered on the up-event
 tags:
   - 2.5.2 A
   - Controls
