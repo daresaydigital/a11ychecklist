@@ -1,6 +1,6 @@
 ---
 id: avoid-sticky-regions
-title: Try to avoid using sticky regions (1.4.10 AA)
+title: Try to avoid using sticky regions
 tags:
   - 1.4.13.10 AA
   - Content
