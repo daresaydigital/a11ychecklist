@@ -1,6 +1,6 @@
 ---
 id: action-control
-title: Make sure that any action takes place when the user releases a control (up-event), not when pressing or clicking down on it (2.5.2 A)
+title: Make sure that any action takes place when the user releases a control (up-event), not when pressing or clicking down on it
 tags:
   - 2.5.2 A
   - Controls
