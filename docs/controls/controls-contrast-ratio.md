@@ -1,6 +1,7 @@
 ---
 id: controls-contrast-ratio
-title: All active controls must have a contrast ratio of at least 3:1 against adjacent color(s) (1.4.11 AA)
+title: All active controls must have a contrast ratio of at least 3:1 against adjacent color(s)
+tags:
   - 1.4.11 AA
   - Controls
   - Buttons
