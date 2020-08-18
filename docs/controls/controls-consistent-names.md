@@ -1,6 +1,6 @@
 ---
 id: controls-consistent-names
-title: Controls that has the same functionality, must have consistent labels/accessible names across the site (3.2.4 AA)
+title: Controls that has the same functionality, must have consistent labels/accessible names across the site
 tags:
   - 3.4.2 AA
   - Controls
