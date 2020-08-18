@@ -1,6 +1,6 @@
 ---
 id: content-dismissable
-title: Any pop-up content that is shown on hover or focus must be easily dismissable (1.4.13 AA)
+title: Any pop-up content that is shown on hover or focus must be easily dismissable
 tags:
   - 1.4.13 AA
   - Content
