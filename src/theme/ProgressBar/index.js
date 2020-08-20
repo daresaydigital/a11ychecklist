@@ -2,6 +2,7 @@ import React from "react";
 import clsx from 'clsx';
 import ObjectHelper from 'js-object-helper';
 import { useLocation } from '@docusaurus/router';
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import styles from './styles.module.scss';
 import { ProgressBar, Step } from "react-step-progress-bar";
 import "react-step-progress-bar/styles.css";
@@ -55,6 +56,14 @@ export const useGroupFromLocation = () => {
 }
 
 export default ({ group = 'auto' }) => {
+  const {
+    siteConfig: {customFields: { showProgressBar = false}} = {},
+  } = useDocusaurusContext();
+
+  if (showProgressBar === false) {
+    return null;
+  }
+
   if (group === "auto") {
     group = useGroupFromLocation();
   }
