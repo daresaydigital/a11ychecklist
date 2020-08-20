@@ -13,8 +13,10 @@
     "@docusaurus/preset-classic": "^2.0.0-alpha.58",
     "clsx": "^1.1.1",
     "docusaurus-plugin-sass": "^0.1.9",
+    "js-object-helper": "^0.0.6",
     "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "react-dom": "^16.8.4",
+    "react-step-progress-bar": "^1.0.3"
   },
   "browserslist": {
     "production": [
