@@ -14,11 +14,13 @@ module.exports = {
     showProgressBar: false,
     aliasRoutes: {
       // "/abc/": ["/def/", "/ghi/"],
-      "/gifs/": ["/video/"],
+      "/gifs/": ["/video/","/content/"],
       "/video/": ["/images/"],
       "/audio/": ["/video/"],
       "/controls/": ["/buttons/"],
       "/forms/":  ["/controls/"],
+      "/text/": ["/layout/","/images/"],
+      "/images/": ["/text/","/links/"],
     },
   },
   themeConfig: {
