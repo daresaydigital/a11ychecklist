@@ -14,7 +14,8 @@ sidebar_label: Pop-up content
 
 ### Description
 
-The content of the pop-up must remain visible until: 
+The content of the pop-up must remain visible until:
+
 1) User removes hover or focus from the trigger or the pop-up content.
 2) User dismisses the pop-up content via a close mechanism like the Escape key.
 3) The information in the pop-up content is no longer valid, such as a busy message that is no longer valid. 
