@@ -37,7 +37,7 @@ Note. This requirement does not imply that controls must have a visual boundary 
 Examples that will pass:
 - A button that includes a text or an icon that is visible, i.e. has enough contrast against its background (4.5:1 resp. 3:1), but where there's no visual indication of the actual hit area of the button. 
 - A text fields with a placeholder text inside that is visible , i.e. has enough contrast against its background, but where there's no visual indication of the hit area of the text field. 
-- Abutton which has a distingushied indicator such as position, text style or context does not need a contrasting visual indicator to show that it is a button.
+- A button which has a distingushied indicator such as position, text style or context does not need a contrasting visual indicator to show that it is a button.
 
 ### Read more
 
