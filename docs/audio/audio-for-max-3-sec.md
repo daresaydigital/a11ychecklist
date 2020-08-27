@@ -14,6 +14,6 @@ sidebar_label: Audio for max 3 sec
 
 Audio interfers with screen readers and unexpected audio can be distracting and distruptive for people with cognitive disabilities.
 
-If it doesn't automatically turn of then include a control for turning it off which is easy to access with assistive technologies (i.e. early in the page/reading order/tab order) and keyboard operable. It's important that the mechanism for controling the audio volume is independent from the overall system volume level, since the user still need to be able to hear the screen reader.
+If it doesn't automatically turn off then include a control for turning it off which is easy to access with assistive technologies (i.e. early in the page/reading order/tab order) and keyboard operable. It's important that the mechanism for controlling the audio volume is independent from the overall system volume level, since the user still needs to be able to hear the screen reader.
 
-The recommendation is to not play sounds automatically, only when user request it.
+The recommendation is to not play sounds automatically, but only when user requests it.
