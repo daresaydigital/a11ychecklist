@@ -13,4 +13,4 @@ sidebar_label: Alt Text for Images With Color as Information
 
 ### Example
 
-An SVG image of a chemical compound, where identification of that compound is done based on the colors used in the image. The text alternative (alt text, long description, nearby text) need to include the same information so that people who can't percieve color gets the same information. 
+An SVG image of a chemical compound, where identification of that compound is done based on the colors used in the image. The text alternative (alt text, long description, nearby text) need to include the same information so that people who can't perceive color gets the same information. 
